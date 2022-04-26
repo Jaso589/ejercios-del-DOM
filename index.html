@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,8 +20,8 @@
     <aside class="panel">
         <nav class="menu">
             <a href="#seccion1">Reloj Digital y Alarma Sonora</a>
-            <a href="#seccion2">sección 2</a>
-            <a href="#seccion3">sección 3</a>
+            <a href="#seccion2">Eventos del teclado</a>
+            <a href="#seccion3">Cuenta regresiva</a>
             <a href="#seccion4">sección 4</a>
             <a href="#seccion5">sección 5</a>
         </nav>
@@ -45,7 +45,8 @@
             </article>
         </section>
         <section id="seccion3" class="section">
-            <h2>Sección 3</h2>
+            <h2>Cuenta regresiva</h2>
+            <div id="countdown"></div>
         </section>
         <section id="seccion4" class="section">
             <h2>Sección 4</h2>
@@ -54,6 +55,10 @@
             <h2>Sección 5</h2>
         </section>
     </main>
+    <button class="scroll-top-btn hidden" id="btn">
+        &#11014
+    </button>
+    <button class="dark-theme-btn">🌙</button>
     <script src="js/index_dom.js" type="module"></script>
 </body>
 </html>
